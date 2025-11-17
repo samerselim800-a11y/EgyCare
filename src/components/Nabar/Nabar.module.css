@@ -1,0 +1,106 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.leftNava{
+ display: flex;
+ margin-top: 10px 0;
+ margin-left: 74px;
+ 
+}
+
+.img{
+    margin-top: 15px;
+    background: #0C5290 ;
+    border-radius: 15px;
+    width: 60px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom{
+    margin-right: 74px;
+}
+.leftNava .img img{
+    padding: 4px;
+      width: 40px;
+    height: 40px;
+}
+.title h3{
+
+    font-size: 24px;
+    color: #0C5290;
+    margin-bottom:0; 
+;
+
+}
+.title p{
+    color: #8D8D8D;
+    font-size: 14px;
+}
+.title{
+    margin-top: 10px;
+    padding: 10px 10px ;
+}
+
+.home a{
+    color: #0C5290 !important; 
+ margin: 0  30px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.ul a     {
+    color: #000;
+}
+.nanItem{
+    margin: 0  30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.li{
+     margin: 0  30px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.btnBook{
+    margin: 0 10px;
+    background-color: #0C5290;
+     width: 120px;
+    height: 39px;
+    border-radius: 100px;
+    border: none;
+
+
+} 
+.btnBook a{
+    text-decoration: none;
+    color: #fff;
+}
+.btnLogin{
+    margin: 0 10px;
+    background-color: #F5F8FF;
+    width: 89px;
+    height: 32px;
+    border-radius: 100px;
+    border:  3px solid #E7E9EC;
+    
+   
+
+
+} 
+.btnLogin a{
+
+    text-decoration: none;
+    color: #010243;
+
+
+}
+
+
