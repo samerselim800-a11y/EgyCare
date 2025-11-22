@@ -7,7 +7,7 @@ const Project = () => {
             <div className="row">
                 <div className="col-lg-4 mb-4">
                     <h1>
-                        Project
+                        Project klsdfkjldfkj
                     </h1>
                     <ul>
                         <li>
@@ -17,7 +17,7 @@ const Project = () => {
                         </li>
                         <li>
                             <Link to="/project/Back">
-                                Back End
+                                Back End 
                             </Link>
                         </li>
                     </ul>
