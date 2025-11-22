@@ -7,7 +7,7 @@ const Nabar = () => {
     <>
     <header className={style.header}>
     <div className={`navbar-expand-lg ${style.Nabar} `}>
-        <div className=" bg-danger">
+        <div className={style.back}>
     <nav className="navbar " id='navbar'>
   <div className="container-fluid">
    <div className={style.leftNava}>
@@ -36,6 +36,9 @@ const Nabar = () => {
         </li>
          <li className={`nav-item ${style.li}`}>
           <Link className="nav-link" to="Contact">Contact</Link>
+        </li>
+         <li className={`nav-item ${style.li}`}>
+          <Link className="nav-link" to="project/">Project</Link>
         </li>
       </ul>
       <div className={style.bottom}>

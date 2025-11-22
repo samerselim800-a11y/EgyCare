@@ -10,6 +10,9 @@ import PatientDashboard from './Pages/Home/Patient-Dashboard/PatientDashboard'
 import MedicalSpecialties from './Pages/Home/Medical-Specialties/MedicalSpecialties'
 import Home from './Pages/Home/Home'
 import Contact from './Pages/Home/Contact/Contact'
+import Project from './components/Project/Project'
+import Front from './components/Nabar/Front/Front'
+import Back from './components/Nabar/Back/Back'
 
 let x = createBrowserRouter([
   {
@@ -20,6 +23,10 @@ let x = createBrowserRouter([
       { path: "medical-specialties", element: <MedicalSpecialties /> },
       { path: "patient-dashboard" , element: <PatientDashboard /> },
       { path: "Contact" , element: <Contact /> },
+      { path: "Project" , element: <Project />  , children:[
+        {index:true, element: <Front/>},
+        {path:"Back", element: <Back/>}
+      ]},
     ]
   }
 ]);
