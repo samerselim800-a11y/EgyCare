@@ -1,0 +1,40 @@
+.logeText{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.text{
+font-size: 0.9rem;
+}
+.egy{
+    font-weight:500;
+}
+.page{
+
+    display: flex;
+
+gap: 3rem;
+}
+.btnss{
+    display: flex;
+    gap: 1rem;
+}
+.btn1 , .btn2{
+    border: none ;
+background-color: transparent;
+border: 0.2rem solid #0C5290;
+border-radius: 100px;
+padding: 0.2rem 2rem;
+background-color: #0C5290;
+color: white;
+}
+.btn2{
+    border: 0.2rem solid #E7E9EC;
+    background-color: #F5F8FF;
+color: #010243;
+font-weight: 600;
+text-transform: capitalize;
+}
+li{
+    font-size: 1.2rem;
+}

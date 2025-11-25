@@ -1,0 +1,38 @@
+.logeText{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer{
+    background-color: #0C5290;
+    height: 25rem;
+}
+.text{
+font-size: 1rem;
+}
+.egy{
+    font-weight:600;
+    font-size: 1.5rem !important;
+}
+.page{
+
+    display: flex;
+
+gap: 3rem;
+}
+.describ{
+    display: flex;
+}
+.comprehensive{
+    width: 80%;
+}
+.edit{
+    color: #96C9F0;
+    font-size: 1.1rem;
+}
+
+.Quick{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #D8F9FF !important;
+}

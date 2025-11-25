@@ -1,20 +1,7 @@
-import React from 'react';
+import React from 'react'
 
-const Home = () => {
-
-
-
-  function getApi(){
-    axios
-    
-  }
+export default function Home() {
   return (
-    <>
-
-    
-    
-    </>
-  );
-};
-
-export default Home;
+    <div>Home</div>
+  )
+}
